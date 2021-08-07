@@ -9,7 +9,7 @@ using namespace arma;
 using namespace mlpack;
 int main()
 {
-    GOOGLE_PROTOBUF_VERIFY_VERSION;
+    
     std::chrono::time_point<std::chrono::system_clock> start, end; 
     start = std::chrono::system_clock::now(); 
     FileWriter f1("jeffin");
